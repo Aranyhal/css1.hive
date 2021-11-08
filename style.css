@@ -53,6 +53,7 @@ section#welcome {
   
   background-color: #5cdb94;
   box-shadow: 0 0 20px #05386b;
+  outline: thick ridge pink;
 
   border-radius: 10px;
   animation-name: welcomeAnime;
@@ -78,8 +79,10 @@ section#welcome button {
     background-color: #05386b;
     color: #5cdb94;
     transform: translate(-50%, -50%);
+    outline: thick ridge pink;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px #000000;
 }
 section#welcome button:hover {
   transform: translate(-50%, -50%) scale(1.2) rotate(180deg);
-  
 }
